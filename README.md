@@ -1,11 +1,6 @@
 Cluster Provisioning
 ====================
 
----
-layout: post
-title: Cluster provisioning handbook
----
-
 # Overview
 
 - [Overview](#overview)
