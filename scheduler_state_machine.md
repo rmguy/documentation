@@ -25,16 +25,16 @@ doesn't simply mean to ./execute the control file on a dut.
 
 * Till we find a host with the required capabilites (board, cpu, sensors etc as
   specified by the job) the job remains queued.
-  * a host matching the capabilities is leased
+  * A host matching the capabilities is leased
 * We double check the host (clean the environment, chrome/ue/system services are
   alive, disk/network interfaces are ok).
 * We configure the good host (os, firmware etc). Don't worry about bad hosts
   for now.
 * The job runs on the host.
 * We gather results. Assume it didn't abort/fall off the network for now.
-* ----- the host is released
+  * The host is released
 * We parse logs to figure out if the job passed. Assume no crashes etc.
-* ----- the job is complete
+  * The job is complete
  
 ![Scheduler layers] (https://cloud.githubusercontent.com/assets/3627706/5236140/564a510c-77db-11e4-9ff3-cda23bef3923.jpg "Scheduler layers")
 
