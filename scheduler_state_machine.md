@@ -25,7 +25,7 @@ doesn't simply mean to ./execute the control file on a dut.
 
 * Till we find a host with the required capabilites (board, cpu, sensors etc as
   specified by the job) the job remains queued.
-* ----- a host matching the capabilities is leased
+  * a host matching the capabilities is leased
 * We double check the host (clean the environment, chrome/ue/system services are
   alive, disk/network interfaces are ok).
 * We configure the good host (os, firmware etc). Don't worry about bad hosts
