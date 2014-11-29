@@ -36,6 +36,6 @@ doesn't simply mean to ./execute the control file on a dut.
 * We parse logs to figure out if the job passed. Assume no crashes etc.
 * ----- the job is complete
  
-[Scheduler layers] (https://cloud.githubusercontent.com/assets/3627706/5236140/564a510c-77db-11e4-9ff3-cda23bef3923.jpg)
+![Scheduler layers] (https://cloud.githubusercontent.com/assets/3627706/5236140/564a510c-77db-11e4-9ff3-cda23bef3923.jpg "Scheduler layers")
 
 
