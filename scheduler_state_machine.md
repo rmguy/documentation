@@ -27,7 +27,7 @@ doesn't simply mean to ./execute the control file on a dut.
   specified by the job) the job remains queued.
   * A host matching the capabilities is leased
 * We double check the host (clean the environment, chrome/ue/system services are
-  alive, disk/network interfaces are ok).
+  alive, disk/network ok).
 * We configure the good host (os, firmware etc). Don't worry about bad hosts
   for now.
 * The job runs on the host.
