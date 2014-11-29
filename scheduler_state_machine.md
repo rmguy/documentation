@@ -11,7 +11,7 @@ team to get context first. You can also check out the docstrings in the
 # Cross section of db writes
 
 None of what follows will make much sense if you've never thought about how jobs run 
-in the lab:
+in the lab, which happens as follows:
 * A job is inserted into a queue
 * Till the scheduler finds a host with the required capabilites the job remains queued.
   * A host matching the capabilities is found and leased to the job.
