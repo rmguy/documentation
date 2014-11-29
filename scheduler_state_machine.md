@@ -23,11 +23,10 @@ call a job successfully completed, but before I delve into the mechanics of the
 scheduler it makes sense to define what we mean by 'running' a job, since it
 doesn't simply mean to ./execute the control file on a dut.
 
-* Till we find a host with the required capabilites (board, cpu, sensors etc as
-  specified by the job) the job remains queued.
+* Till we find a host with the required capabilites the job remains queued.
   * A host matching the capabilities is found and leased
-* We check the host (clean the environment, chrome/ue/system services are alive, 
-  disk/network ok).
+* We check the host 
+  * Clean the environment, chrome/ue/system services are alive, disk/network ok.
 * We configure the good host (os, firmware etc).
 * The job runs on the host.
 * We gather results.
