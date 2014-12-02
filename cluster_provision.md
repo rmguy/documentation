@@ -4,9 +4,9 @@ Cluster Provisioning
 # Overview
 
 - [Overview](#overview)
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
 - [Key Concepts](#key-concepts)
-- [Provisioning](#Provisioning)
+- [Provisioning](#provisioning)
 
 ## Introduction
 
