@@ -19,7 +19,7 @@ To provision any machine for membership to an autotest cluster it must have the 
 * An autotest repo installation
 * A mysql installation
 * An apache installation
-* Update stateful script for repair
+* Update_stateful script for repair
 
 Having provisioned an anonymous host with this common denominator of packages, you can easily convert it into a 
 db host, drone, afe, full cq instance etc. The prevents us from committing a host for a given use before it is needed in production.
